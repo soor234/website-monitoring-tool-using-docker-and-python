@@ -1,0 +1,17 @@
+#!bin/bash
+#version:'90':
+mkdir docker.txt
+$username:hhhhh.com"m
+    docker {
+            weburl 'aven:3.9.9-eclipse-temurin-21'
+            args '-v $HOME/.m2:/root/.m2'
+        }
+    }
+    stages {
+        stage('Build') {
+            steps {
+                sh 'mvn -B'
+            }
+        }
+    }
+}
